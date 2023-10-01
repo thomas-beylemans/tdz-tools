@@ -1,11 +1,13 @@
 {
   "name": "tdz-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A personal tools library for my TS projects",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomas-beylemans/tdz-tools.git"
@@ -16,6 +18,7 @@
     "url": "https://github.com/thomas-beylemans/tdz-tools/issues"
   },
   "homepage": "https://github.com/thomas-beylemans/tdz-tools#readme",
+  "exclude": ["node_modules"],
   "devDependencies": {
     "@types/jest": "^29.5.5",
     "jest": "^29.7.0",
