@@ -5,6 +5,7 @@ export default {
       '**/__tests__/**/*.ts?(x)',
       '**/?(*.)+(spec|test).ts?(x)'
     ],
+    testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     transform: {
       '^.+\\.(ts|tsx)$': 'ts-jest'
     },
