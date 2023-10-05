@@ -50,6 +50,8 @@ Converts a string to a sequence of emojis based on their Unicode character codes
 - modulo (number, optional): The modulo value to use for calculating the character code of the emoji. Default is 32.
 - offset (number, optional): The offset value to add to the character code. Default is 0x1F1E5.
 
+```typescript
 const emojiFlags = isoToFlagEmoji('US');
 console.log(emojiFlags);  // Outputs: 🇺🇸
+```
 </details>
